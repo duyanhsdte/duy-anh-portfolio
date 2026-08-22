@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./profile-overrides.css";
+import "./language-switch.css";
 
 export const metadata: Metadata = {
   title: "Mai Duy Anh — Affiliate Marketing Portfolio",
