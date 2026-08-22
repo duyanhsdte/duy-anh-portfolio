@@ -21,7 +21,7 @@ export default function Home() {
       <div className="ambient ambient-one" />
       <div className="ambient ambient-two" />
       <nav className="nav shell">
-        <a className="brand" href="#top" aria-label="Mai Duy Anh home"><span className="brand-mark"><Image src="/profile-kpi-small.jpg" alt="Mai Duy Anh" width={42} height={42} className="brand-avatar" /></span><span><strong>Mai Duy Anh</strong><small>Affiliate Marketing</small></span></a>
+        <a className="brand" href="#top" aria-label="Mai Duy Anh home"><span className="brand-mark"><img src="/profile-kpi-small.jpg" alt="Mai Duy Anh" className="brand-avatar" /></span><span><strong>Mai Duy Anh</strong><small>Affiliate Marketing</small></span></a>
         <div className="nav-links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#work">Work</a><a href="#skills">Skills</a></div>
         <a className="nav-cta" href="mailto:duyanhsdte@gmail.com">Let&apos;s talk <ArrowUpRight size={15}/></a>
       </nav>
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         <div className="hero-visual" aria-label="Performance overview">
           <div className="orbit orbit-a"/><div className="orbit orbit-b"/>
-          <div className="core-card"><div className="core-top"><span>PROFILE / 2026</span><span className="live-dot"/></div><div className="monogram"><Image src="/profile-kpi-small.jpg" alt="Mai Duy Anh performance profile" fill sizes="310px" className="profile-image" priority /></div><div className="core-bottom"><strong>MAI DUY ANH</strong><span>Affiliate Marketing × Data</span></div></div>
+          <div className="core-card"><div className="core-top"><span>PROFILE / 2026</span><span className="live-dot"/></div><div className="monogram"><img src="/profile-kpi-small.jpg" alt="Mai Duy Anh performance profile" className="profile-image" /></div><div className="core-bottom"><strong>MAI DUY ANH</strong><span>Affiliate Marketing × Data</span></div></div>
           <div className="float-card card-a"><span>Revenue growth</span><strong>2x</strong><small>VitaDairy H1.2026</small></div>
           <div className="float-card card-b"><span>ROI</span><strong>17.5x</strong><small>Affiliate sales growth</small></div>
           <div className="float-card card-c"><UsersRound size={18}/><strong>3K+</strong><small>Creator community</small></div>
