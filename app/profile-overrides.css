@@ -1,0 +1,61 @@
+.brand-mark{
+  position:relative;
+  overflow:hidden;
+  padding:0;
+  font-size:0;
+  border-color:rgba(184,255,74,.28);
+  box-shadow:0 0 0 1px rgba(184,255,74,.05),0 10px 26px rgba(0,0,0,.28),0 0 26px rgba(184,255,74,.08);
+}
+.brand-mark::before{
+  content:"";
+  position:absolute;
+  inset:2px;
+  border-radius:11px;
+  background-image:linear-gradient(rgba(7,10,15,.04),rgba(7,10,15,.04)),url('/profile-kpi.jpg');
+  background-size:235%;
+  background-position:50% 20%;
+  background-repeat:no-repeat;
+}
+.brand-mark::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:inherit;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.05);
+  pointer-events:none;
+}
+
+.monogram{
+  width:100%;
+  height:236px;
+  margin:5px 0 8px;
+  border-radius:20px;
+  overflow:hidden;
+  font-size:0;
+  letter-spacing:0;
+  color:transparent;
+  background-image:linear-gradient(180deg,rgba(7,10,15,.02),rgba(7,10,15,.12)),url('/profile-kpi.jpg');
+  background-size:cover;
+  background-position:center 18%;
+  background-repeat:no-repeat;
+  border:1px solid rgba(184,255,74,.16);
+  box-shadow:inset 0 0 45px rgba(184,255,74,.035),0 18px 40px rgba(0,0,0,.22);
+  position:relative;
+}
+.monogram::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:inherit;
+  background:linear-gradient(180deg,transparent 58%,rgba(7,10,15,.42) 100%);
+  pointer-events:none;
+}
+.core-card:hover .monogram{
+  border-color:rgba(184,255,74,.28);
+  box-shadow:inset 0 0 55px rgba(184,255,74,.06),0 22px 48px rgba(0,0,0,.28),0 0 28px rgba(184,255,74,.055);
+}
+
+@media(max-width:560px){
+  .brand-mark{width:40px;height:40px}
+  .monogram{height:184px;border-radius:16px;background-position:center 17%}
+}
